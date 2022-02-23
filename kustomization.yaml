@@ -3,7 +3,7 @@ kind: Kustomization
 
 images:
 - name: helloworld
-  newName: registry/helloworld
+  newName: us-west1-docker.pkg.dev/boingo-helloworld/hello-docker-repo/helloworld
   newTag: newtag
 
 resources:
