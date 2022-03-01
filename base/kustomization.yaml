@@ -5,9 +5,6 @@ images:
 - name: helloworld
   newName: us-west1-docker.pkg.dev/boingo-helloworld/hello-docker-repo/helloworld
   newTag: newtag
-replicas:
-- name: helloworld
-  count: 3
 
 resources:
 - deployment.yaml
